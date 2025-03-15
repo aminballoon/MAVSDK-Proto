@@ -561,7 +561,8 @@ enum FixType {
     FIX_TYPE_RTK_FLOAT = 5; // RTK float, 3D position
     FIX_TYPE_RTK_FIXED = 6; // RTK Fixed, 3D position
 }
-	
+
+// Battery function type.
 enum BatteryFunction {
     MAV_BATTERY_FUNCTION_UNKNOWN = 0; // Battery function is unknown
     MAV_BATTERY_FUNCTION_ALL = 1; // Battery supports all flight systems
